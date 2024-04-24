@@ -17,26 +17,37 @@ Focuses on training the model on video data using a buffer system to allow the m
 Sample Inputs: 
 
 Inputs/outputs for Quantised model:
+
 ![54](https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/9609c31c-0421-4ac5-a14d-d0276764c064)
+
+
 ![55](https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/34136a4d-5d8b-4dd8-a5d4-b7b9bb068794)
+
+
 ![54](https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/75045c5b-6431-4244-994d-81c17d127c29)
+
+
 ![55](https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/4c6e44b8-05ac-475a-b7e4-61099280c146)
 
  
 Inputs/outputs for Temporal model:
 Input:
+
 <img width="391" alt="Screenshot 2024-04-25 at 4 26 20 AM" src="https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/3c0c56c5-0e68-4229-973c-d302f865a191">
 
 Output:
+
 <img width="385" alt="Screenshot 2024-04-25 at 4 26 28 AM" src="https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/d83a899c-5a07-4aa9-944f-c60849d60f13">
 
 Desired Output:
+
 <img width="386" alt="Screenshot 2024-04-25 at 4 26 36 AM" src="https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/d233fe05-9e42-4f5e-9a2e-34a7f3cc8382">
 
 
 High level diagram of model
 
 Single module/block being used
+
 <img width="419" alt="Screenshot 2024-04-25 at 4 25 52 AM" src="https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/f0da4225-a1bf-4b6d-949e-671e34bc6489">
 
 To be noted that the quantized model is not using video data, thus is not making use of the buffers, whereas the Temporal model is using buffers as shown in the model. 
@@ -59,7 +70,9 @@ In addition, buffers are being used along with each layer to save the output and
 Current Performance: 
 
 Quantised Model
+
 <img width="926" alt="Screenshot 2024-04-25 at 4 23 57 AM" src="https://github.com/paras122/Thermal-Image-processing-and-Quantisation/assets/82634952/4f5231b4-0ed0-4607-bb0e-310b492d5da4">
+
 Validation Loss (Red), Training Loss (Blue)
 
 
